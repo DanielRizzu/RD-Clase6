@@ -1,37 +1,37 @@
-html {
-    box-sizing: border-box;
-}
+body {
 
-*,
-*::before,
-*::after {
-    box-sizing: inherit;
     margin: 0;
     padding: 0;
-}
-
-/* body {
-    margin: 0;
     position: relative;
     padding-bottom: 3em;
     min-height: 100vh;
 
-} */
+}
 
 main {
     padding-bottom: 20px;
 }
 
+.logo {
+    display: inline-block;
+}
+
+.logo img {
+    width: 60px;
+    vertical-align: middle;
+}
+
 nav {
-    width: 100%;
     padding-left: 30px;
     padding-right: 10px;
     background-color: lightblue;
 }
 
-/* nav a {
-    text-decoration: none;
-} */
+.navBar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
 
 .nav-links {
     list-style: none;
@@ -42,38 +42,20 @@ nav {
     display: inline-block;
     padding: 10px 15px;
     text-decoration: none;
-
 }
 
-/* nav li {
-    display: flex;
-    flex-direction: row;
-    /* display: inline-block; */
-/* padding: 5px 10px; 
-}*/
-
-
-.navBar {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+.nav-items a:hover {
+    color: orangered;
 }
 
-.logo {
-    display: inline-block;
-}
 
-.logo img {
-    width: 100px;
-    vertical-align: middle;
-}
 
-.fondoHeader {
+/* .fondoHeader {
 
     width: 100%;
-    /* padding-bottom: 10px; */
+    padding-bottom: 10px;
 
-}
+} */
 
 /* Inicio tabla horarios */
 
@@ -145,4 +127,8 @@ nav {
     bottom: 0px;
     width: 100%;
     position: absolute;
+}
+
+.parrafoFooter {
+    margin-left: 10px;
 }
